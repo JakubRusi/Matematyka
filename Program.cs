@@ -1,0 +1,22 @@
+﻿Console.WriteLine("Dzisiaj uczymy się matematyki!");
+// Console.WriteLine(4.0/6.0);
+// Console.WriteLine("Podaj pierwszą liczbę:"); 
+// double pierwszaLiczba = double.Parse(Console.ReadLine() ?? "");
+// Console.WriteLine("Podaj drugą liczbę:");
+// double drugaLiczba = double.Parse(Console.ReadLine() ?? "");
+// double wynik = pierwszaLiczba + drugaLiczba;
+// Console.WriteLine($"Wynik: {wynik}");
+// Console.Write("Jak masz na imię:");
+// string ?imie = Console.ReadLine() ;
+// Console.WriteLine($"Cześć, {imie}!");   
+string produkt = "Mleko";
+decimal cena = 3.99m;
+int ilosc = 2;
+bool czyDostepny = true;
+
+decimal wartoscZakupu = cena * ilosc;
+Console.WriteLine($"Produkt: {produkt}");
+Console.WriteLine($"Cena: {cena} zł");
+Console.WriteLine($"Ilość: {ilosc} l");
+Console.WriteLine($"Wartość zakupu: {wartoscZakupu} zł");
+Console.WriteLine($"Dostępność: {czyDostepny}");
